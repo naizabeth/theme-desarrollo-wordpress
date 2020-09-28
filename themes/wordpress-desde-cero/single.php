@@ -1,4 +1,4 @@
-<?php get_header()?>
+<?php get_header('sinjumbotron')?>
     <!-- Example row of columns -->
     <div class="row">
       <?php 

@@ -1,5 +1,22 @@
+   <div class="container-fluid row bg-dark text-light">
+   <div class="col-sm"> 
+   <?php dynamic_sidebar( 'widget-footer-1'); ?>
+     </div>
+   <div class="col-sm">
+   <?php dynamic_sidebar( 'widget-footer-2'); ?>  
+    </div>
+   <div class="col-sm"> 
+   <?php dynamic_sidebar( 'widget-footer-2'); ?>  
+     </div>
+   
+</div>
+   
+
+
 
 <footer class="container">
+
+<?php mostrar_menu_footer();?>
 
 <p>&copy; Company 2017-2020</p>
 </footer>
